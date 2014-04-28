@@ -12,7 +12,8 @@ Installation
 Usage
 -----
 
-    var express = require('express')
+    var derby = require('derby');
+    var express = require('express');
     var DerbyStore = require('connect-derby')(express);
 
     ...
