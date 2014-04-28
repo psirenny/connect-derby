@@ -1,0 +1,36 @@
+{
+  "author": "Dennis Torres <djtorres0@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/psirenny/connect-derby/issues"
+  },
+  "description": "Derby session store for Connect.",
+  "dependencies": {
+    "async": "*"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "connect": "*",
+    "derby": "*",
+    "livedb-mongo": "*",
+    "mocha": "*",
+    "redis": "*"
+  },
+  "keywords": [
+    "derby",
+    "express",
+    "racer",
+    "session"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "connect-derby",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psirenny/connect-derby.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test"
+  },
+  "version": "0.1.0"
+}
