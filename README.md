@@ -13,7 +13,7 @@ Usage
 -----
 
     var express = require('express')
-    var DerbyStore = require('..')(express);
+    var DerbyStore = require('connect-derby')(express);
 
     ...
 
