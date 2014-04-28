@@ -14,7 +14,8 @@ Usage
 
     var derby = require('derby');
     var express = require('express');
-    var DerbyStore = require('connect-derby')(express);
+    var DerbyStore = require('connect-derby')(express)
+    var app = express();
 
     ...
 
