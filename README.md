@@ -12,6 +12,22 @@ Installation
 Usage
 -----
 
+    var express = require('express')
+    var DerbyStore = require('..')(express);
+
+    ...
+
+    var store = derby.createStore({
+      db: {db: mongo, redis: redis}
+    });
+
+    ...
+
+    app.use(express.session({
+      secret: 'APP SECRET',
+      store: new DerbyStore({store: store})
+    }))
+
 Options
 -------
 
